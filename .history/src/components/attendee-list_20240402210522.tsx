@@ -91,7 +91,7 @@ export function AttendeeList() {
           </TableRow>
         </thead>
         <tbody>
-          {attendees.slice((page - 1) * 10, page * 10).map((attendee) => {
+          {attendees.map((attendee) => {
             return (
               <TableRow
                 key={attendee.id}
